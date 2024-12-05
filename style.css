@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1500px;
+}
+/* Nav Bar Starts Here */
+.mainHeader{
+    background-color: #212529;
+    width: 100%;
+    height: 60px;
+    border-top: 2px red solid;
+ 
+}
+
+nav .logo{
+    display: inline-block;
+    margin: 20px 0 0 110px;
+    float:left;
+    color: #ffbb17;
+
+}
+nav .logo a{
+    color: #ffbb17;
+    text-decoration: none;
+}
+.nav-bar ul{
+    list-style: none;
+    float: right;
+    
+    margin: 0 100px 0 0;
+}
+.nav-bar ul li {
+    display: inline-block;
+    padding: 20px;
+   
+   
+}.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.nav-bar ul li a:hover{
+    color: red;
+}
+
+.nav-bar ul li .active{
+    color: #ffbb17;
+   
+}
+.floatfix{clear: both;}
+/* Nav Bar Starts Ends */
+
+
+.home{
+padding: 0px;
+margin: 0px;
+/* width: 100%; */
+height: 700px;
+background-image: url("./header-bg.jpg");
+background-size: cover;
+
+}
+.Artcontain{
+color: white;
+padding: 200px 0 0 500px;
+
+}
+.mainsloganWelcome{
+    padding-left:150px;
+    font-size: 2.25rem;
+    display: block;
+    font-style: italic
+
+}
+.mainslogan{
+font-size: 4.5rem;
+}
+.ServiceP{ 
+    font-size:  2.5rem;
+    /* margin: 100px 0  100px 50%; */
+    text-align: center;
+
+}
+.card {
+    width:calc(99%/3);
+    display:inline-block;
+    /* border: 1px black solid; */
+}
+.cardLogo{
+padding-left: 50%;
+    width: 80px;
+}
+.cardLogo img{
+    width: 80px; 
+}
+.cardHeader{
+    font-size: 40px;
+    padding-left: 40%;
+ }
+.cardPar{
+    padding-top: 50px;
+}
+.serviceNd{
+font-size: 20px;
+color: gray;
+
+}
